@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    background-color: rgb(141, 110, 160);
+    text-align: center;
+    color: rgb(55, 17, 109);
+}
+
+main{ 
+    background-color: rgb(187, 181, 224);
+    border: 1px solid rgb(175, 153, 222);
+    border-radius: 25px;
+    padding: 10px;
+    width: 50%;
+    height: 45vh;
+    margin-top: 35px;
+}
+
+.container{
+    width: 55%;
+    margin: 25px auto 0px auto;
+}
+
+.removed{
+    color: rgb(101, 101, 134);
+}
+
+.removed label{
+    text-decoration: line-through;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+button{
+    background-color: rgb(104, 80, 133);
+    border-radius: 15px;
+    border: solid grey 1px;
+}
+
+input{
+    border-radius: 8px;
+    border: solid grey 1px;
+}
